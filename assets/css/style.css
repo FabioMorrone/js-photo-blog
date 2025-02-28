@@ -33,14 +33,22 @@ main {
         display: flex;
     }
 
+    
+        
+    
+
     .card {
         width: 296px;
-        height: 360px;
         background: #ffffff;
         margin-top: 3rem;
         padding: 1rem;
+        border-radius: 0%;
     }
-    .card-img{
+    .card-img-top{
         max-width: 100%;
+        border-radius: 0%;
     }
+    
+
+    
 }
