@@ -37,12 +37,15 @@ main {
         width: 296px;
         height: 360px;
         background: #ffffff;
+        margin-top: 3rem;
+        padding: 1rem;
         
     }
 
     .card-img-top{
         width:265px; 
         height: 265px;
-        vertical-align: middle;
+        
+        
     }
 }
