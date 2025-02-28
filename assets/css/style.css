@@ -2,24 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Edu TAS Beginner", sans-serif;
 }
 
 
 header {
     background-image: url(../img/wall.png);
     height: 150px;
+    text-align: center;
 
 
-    .title {
-        font-family: "Edu TAS Beginner", sans-serif;
 
-
-    }
 
     h1 {
         font-size: 70px;
-        text-align: center;
-
+        padding: 2rem 0;
+        font-weight: 700;
     }
 }
 
@@ -27,28 +25,42 @@ header {
 main {
 
     background-image: url(../img/cork.png);
-    height: 850px;
+    min-height: 900px;
 
     .container {
+        width: 936px;
         display: flex;
+
     }
 
-    
-        
-    
+
+
+
 
     .card {
-        width: 296px;
+        max-width: 296px;
         background: #ffffff;
         margin-top: 3rem;
         padding: 1rem;
         border-radius: 0%;
+
     }
-    .card-img-top{
+
+    .card-img-top {
         max-width: 100%;
         border-radius: 0%;
+        aspect-ratio: 1;
+        object-fit: cover;
     }
-    
 
-    
+    .pin {
+        top: 1%;
+        position: absolute;
+        transform: translateX(-50%) translateY(-50%);
+        left: 50%;
+    }
+ 
+
+
+
 }
