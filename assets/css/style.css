@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-image: url(../img/wall.png);
+    height: 150px;
+
+
+    .title {
+        font-family: "Edu TAS Beginner", sans-serif;
+
+
+    }
+
+    h1 {
+        font-size: 70px;
+        text-align: center;
+
+    }
+}
+
+
+main {
+
+    background-image: url(../img/cork.png);
+    height: 850px;
+
+    .container {
+        display: flex;
+    }
+
+    .card {
+        width: 296px;
+        height: 360px;
+        background: #ffffff;
+        
+    }
+
+    .card-img-top{
+        width:265px; 
+        height: 265px;
+        vertical-align: middle;
+    }
+}
