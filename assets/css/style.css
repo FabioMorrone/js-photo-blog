@@ -39,13 +39,8 @@ main {
         background: #ffffff;
         margin-top: 3rem;
         padding: 1rem;
-        
     }
-
-    .card-img-top{
-        width:265px; 
-        height: 265px;
-        
-        
+    .card-img{
+        max-width: 100%;
     }
 }
