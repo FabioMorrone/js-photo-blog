@@ -1,6 +1,5 @@
 const containerEl = document.querySelector('.container')
 const rowEl = document.querySelector('.row')
-const cardEl = document.querySelectorAll('.card')
 
 fetch('https://lanciweb.github.io/demo/api/pictures/')
     .then(response => response.json())
@@ -15,14 +14,40 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
             console.log(thisData);
 
         }
+        const cardEl = document.querySelectorAll('.card')
+        
+
+        for (let i = 0; i < cardEl.length; i++) {
+            const thisCardEl = cardEl[i];
+            console.log(thisCardEl);
+            
+            thisCardEl.addEventListener('click',
+                
+            function(){
+                
+            })
+            
+        }
+
+
+
+    
+
+
+
+
+
+
+
+
     })
 function getDataMarkup(dataObj) {
     const { id, title, date, url } = dataObj
     console.log(id, title, date, url);
 
 
-    const markup = 
-    `
+    const markup =
+        `
     <div class="col d-flex col-lg-4 col-md-6 col-sm-12">
         <div class="card">
             <img class="card-img-top" src="${url}">
@@ -37,12 +62,12 @@ function getDataMarkup(dataObj) {
     console.log(markup);
     return markup
 
-    
-   
-    
-      
-    
-      
+
+
+
+
+
+
 
 }
 
