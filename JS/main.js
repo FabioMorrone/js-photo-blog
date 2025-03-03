@@ -24,6 +24,7 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
             thisCardEl.addEventListener('click',
                 
             function(){
+                console.log('tasto');
                 
             })
             
