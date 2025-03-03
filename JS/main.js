@@ -16,23 +16,25 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
 
         }
     })
-    function getDataMarkup(dataObj) {
-        const { id, title, date, url } = dataObj
-        console.log(id, title, date, url);
-      
+function getDataMarkup(dataObj) {
+    const { id, title, date, url } = dataObj
+    console.log(id, title, date, url);
 
-        const markup = `
+
+    const markup = `
+     <div class="col d-flex col-lg-4">
          <div class="card">
-             <img class="card-img-top" src="${url}">
+                <img class="card-img-top" src="${url}">
                 <div class="card-body">
                      <img class="pin" src="./assets/img/pin.svg" alt="pin">
                     <p class="card-text m-0">${date}</p>
                     <h3 class="card-title m-0">${title}</h3>
                 </div>
-         </div>`
-        console.log(markup);
-        return markup
-    }
-    
+         </div>
+     </div>`
+    console.log(markup);
+    return markup
+}
+
 
 
