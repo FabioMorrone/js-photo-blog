@@ -1,6 +1,6 @@
 const containerEl = document.querySelector('.container')
 const rowEl = document.querySelector('.row')
-
+const cardEl = document.querySelectorAll('.card')
 
 fetch('https://lanciweb.github.io/demo/api/pictures/')
     .then(response => response.json())
@@ -36,6 +36,14 @@ function getDataMarkup(dataObj) {
     `
     console.log(markup);
     return markup
+
+    
+   
+    
+      
+    
+      
+
 }
 
 
