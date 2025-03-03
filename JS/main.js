@@ -15,7 +15,9 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
 
         }
         const cardEl = document.querySelectorAll('.card')
-        
+        const img_overlayEl = document.querySelector('.img_overlay')
+        const imageEl = document.querySelector('.image')
+        const btnEl = document.querySelector('.btn')
 
         for (let i = 0; i < cardEl.length; i++) {
             const thisCardEl = cardEl[i];
@@ -25,8 +27,9 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
                 
             function(){
                 console.log('tasto');
-                
+       
             })
+          
             
         }
 
