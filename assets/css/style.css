@@ -26,7 +26,7 @@ main {
 
     background-image: url(../img/cork.png);
     min-height: 900px;
-    
+
     .container {
         width: 936px;
     }
@@ -61,12 +61,19 @@ main {
         text-align: center;
         top: 0;
         left: 0;
+        align-content: center;
 
 
         img {
             height: 600px;
             width: 600px;
+            
 
+        }
+
+        .btn{
+            background-color: blue;
+           
         }
     }
 }
